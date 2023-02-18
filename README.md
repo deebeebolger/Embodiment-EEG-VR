@@ -5,6 +5,6 @@ Figure of the experimental protocol that was put in place to combine EEG and ful
 
 ![image](images/EEGVR-exp-layout.png)
 
-![image](images/EEGVR-protocole-figure-version2.png)
+![image](images/EEGVR-protocol-figure-version2.png)
 
 
