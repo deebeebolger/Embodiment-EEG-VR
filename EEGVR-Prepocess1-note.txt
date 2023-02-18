@@ -1,0 +1,21 @@
+// EEG-VR Preprocessing Pipeline
+
+The first script that needs to be run is: EEGVR_Preprocess_Prelim.m
+It should run automatically to the end, although certain functions open figures that are interactive, such as the spectrum and the EpochChan_dlg(), function
+to allow the user to get a visual idea of the quality of the data in terms of channel quality and trial-level noise.
+
+To run the EEGVR_Preprocess_Prelim script type the following in the Matlab command window:
+EEGVR_Preprocess_Prelim
+Alternatively, you can open its script and select "Run" in the Matlab bar. 
+To begin with it is best to run one subject at a time.
+
+The structure of the folders for each subject remains the same as before:
+Example:
+>>s07C : s07C.bdf
+      		>>	StimData : outParameters.txt
+	  		     		   outProtocol.txt
+				 		   outSubject.txt
+				                			>> Trials: Containing the individual trial-level files output by Unity (VR system)
+											
+The "*.stimdata.txt" file output by the function "EEGVR_extract_trialdata()" should be in the StimData folder of the current subject and have a name like, s07C_stimdata.txt.
+
