@@ -1,0 +1,11 @@
+// ChannelTrial_QualityCheck-Tool.        28-05-2018
+
+This folder contains the script and functions required to run a tool that allows the user to asses visually the quality of data.
+It works for both segmented and continuous data, although it was conceived more for segmented data to help the user decide if 
+certain channels should be removed or if it is better to remove certain noisy trials.
+To run the tool, type the following in the Matlab command window:
+EpochChan_dlg.
+
+This will open a dialogue box allowing the user to specify certain parameters such as a threshold amplitude value in mV (default 80 but I generally use 75), number of channels to consider (default is all, including externals but I generally specify just the 64 head electrodes).
+
+It uses a robust z-score.
